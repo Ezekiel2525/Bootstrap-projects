@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+    height: 150vh;
+    background: linear-gradient(to left, #cbeaf1, #f2e4cf, #dde5db,  #f2e2ce);
+    overflow: hidden;
+}
+
+#lbtn{
+    background-color: #fa6400;
+    color: #fff;
+    text-align: center;
+}
+
+#la{
+color: #fff;
+font-size: 14px;
+font-weight: 500;
+}
+
+#parent{
+position: relative;
+}
+
+#dropp{
+position: absolute;
+display: none;
+border-top: 5px solid #fa6400;
+font-size: 14px;
+padding: 2% 5%;
+width: max-content;
+height: max-content;
+line-height: 1.7rem;
+}
+
+#parent:hover #dropp{
+display: block;
+}
+.dropdown-item:hover{
+  color: #fa6400;
+}
+
+#cn{
+  position: relative;
+  top: 30%;
+ }
+
+ #cn1{
+  margin-left: 15%;
+ }
+
+ .hh{
+  line-height: 22px;
+ }
+
+ .p1{
+  line-height: 15px;
+ }
+
+
+#gbt{
+background-color: #fa6400;
+color: #fff;
+border-radius: 50px;
+padding: 3% 10%;
+font-size: 14px;
+margin-left: -2%;
+white-space: nowrap;
+}
+
+#gbt:hover{
+background-color: #fff;
+color: #fa6400;
+cursor: pointer;
+}
+
+#cd1{
+  background-image: url(3bed-semi-detached-.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 55vh;
+  width: max-content;
+  transition: all 1.2s ease-in-out;
+  
+}
+
+#cd2{
+  background-image: url(laim.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 55vh;
+  transition: all 1.2s ease-in-out;
+}
+
+#cd3{
+  background-image: url(TErra-gardens.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 55vh;
+  transition: all 1.2s ease-in-out;
+}
+
+
+#cd1:hover{
+  transform: translateY(-100px);
+  cursor: pointer;
+ }
+
+ 
+#cd2:hover{
+  transform: translateY(-100px);
+  cursor: pointer;
+ }
+
+#cd3:hover{
+ transform: translateY(-100px);
+ cursor: pointer;
+}
+
+.tt{
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 18rem;
+}
+/* 
+@media (max-width: 992px) {
+   #cn{
+    display: block;
+    flex-direction: column;
+   }
+} */
+
